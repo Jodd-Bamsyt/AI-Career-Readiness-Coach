@@ -6,10 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "postinstall": "prisma generate"
+    "lint": "eslint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^6.35.5",
     "@clerk/themes": "^2.4.29",
     "@google/generative-ai": "^0.24.1",
     "@hookform/resolvers": "^5.2.2",
