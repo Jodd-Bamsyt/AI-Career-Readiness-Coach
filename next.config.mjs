@@ -8,10 +8,10 @@ const nextConfig = {
       },
     ],
   },
-  experimental: {
-    outputFileTracingIncludes: {
-      "/**/*": ["./node_modules/.prisma/client/**/*"],  // 👈 Important part
-    },
+
+  // 👇 Yeh naya part add karo, experimental ke bahar
+  outputFileTracingIncludes: {
+    "/**/*": ["./node_modules/.prisma/client/**/*"],
   },
 };
 

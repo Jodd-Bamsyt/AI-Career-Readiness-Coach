@@ -1,5 +1,5 @@
 "use server";
-export const runtime = "nodejs";
+
 
 import { db } from "@/lib/prisma";
 import { auth } from "@clerk/nextjs/server";
